@@ -486,8 +486,8 @@ section {
 # About
 --------------------------------------------------------------*/
 .about .content h3 {
-  font-weight: 700;
-  font-size: 25px;
+  font-weight: 400;
+  font-size: 24px;
   font-family: "Poppins", sans-serif;
   color: #F15A29;
 }
@@ -1354,7 +1354,11 @@ section {
 
 .ccl-enhanced-title{
   color: #00AEEF;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
+}
+
+.third-color-header{
+  color: #403D39;
 }
