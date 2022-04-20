@@ -1,6 +1,6 @@
 /**
 * Company Name: CodeCrafters Labs
-* Author: Alvison Hunter
+* Developer: Alvison Hunter
 * License: https://bootstrapmade.com/license/
 */
 
@@ -1017,6 +1017,7 @@ section {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .team .member .social a:hover {
   color: #403D39;
