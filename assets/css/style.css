@@ -1006,23 +1006,23 @@ section {
 }
 .team .member .social a {
   transition: color 0.3s;
-  color: #403D39;
   margin: 0 3px;
   border-radius: 4px;
   width: 36px;
   height: 36px;
-  background: rgba(255, 255, 255, 0.8);
+  background: #00AEEF;
   transition: ease-in-out 0.3s;
-  color: #484848;
+  color: #ffffff;
   display: inline-flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
 }
 .team .member .social a:hover {
-  color: #403D39;
-  background: #00AEEF;
+  color: #ffffff;
+  background: #F15A29;
 }
+
 .team .member .social i {
   font-size: 18px;
   line-height: 0;
