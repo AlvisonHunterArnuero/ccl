@@ -386,6 +386,17 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   font-family: "Poppins", sans-serif;
 }
+
+#hero .main-title {
+  margin: 0;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 64px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+
 #hero h1 span {
   color: #00AEEF;
 }
