@@ -978,6 +978,15 @@ section {
   background-color: #00AEEF;
   opacity: 1;
 }
+.mentees {
+  padding: 80px 0;
+  background: url("../img/testimonials-mentees-bg.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+
 @media (min-width: 1024px) {
   .testimonials {
     background-attachment: fixed;
