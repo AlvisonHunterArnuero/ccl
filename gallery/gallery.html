@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    * {
+        margin: 0;
+    }
+
+    .thmb {
+        filter: brightness(50%);
+        -webkit-filter: brightness(50%);
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+
+
+    .thmb:hover {
+        filter: brightness(100%);
+        -webkit-filter: brightness(100%);
+        transform: scale(1.03);
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <title>CodeCrafters Labs Wallpapers</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-800 text-white">
+
+    <div class="container mx-auto">
+        <h1 class="text-2xl font-semibold text-center my-5 uppercase">CodeCrafters Labs WallPapers</h1>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
+            <img onclick="openLightbox(this.src)" src="imgs/wall01.jpg"
+                class="cursor-pointer w-full h-auto rounded-lg thmb" />
+            <img onclick="openLightbox(this.src)" src="imgs/wall02.jpg"
+                class="cursor-pointer w-full h-auto rounded-lg thmb" />
+            <img onclick="openLightbox(this.src)" src="imgs/wall03.jpg"
+                class="cursor-pointer w-full h-auto rounded-lg thmb" />
+            <img onclick="openLightbox(this.src)" src="imgs/wall04.jpg"
+                class="cursor-pointer w-full h-auto rounded-lg thmb" />
+            <img onclick="openLightbox(this.src)" src="imgs/wall05.jpg"
+                class="cursor-pointer w-full h-auto rounded-lg thmb" />
+            <img onclick="openLightbox(this.src)" src="imgs/wall06.jpg"
+                class="cursor-pointer w-full h-auto rounded-lg thmb" />
+            <img onclick="openLightbox(this.src)" src="imgs/wall07.jpg"
+                class="cursor-pointer w-full h-auto rounded-lg thmb" />
+            <img onclick="openLightbox(this.src)" src="imgs/wall08.jpg"
+                class="cursor-pointer w-full h-auto rounded-lg thmb" />
+            <img onclick="openLightbox(this.src)" src="imgs/wall09.jpg"
+                class="cursor-pointer w-full h-auto rounded-lg thmb" />
+            <img onclick="openLightbox(this.src)" src="imgs/wall10.jpg"
+                class="cursor-pointer w-full h-auto rounded-lg thmb" />
+            <img onclick="openLightbox(this.src)" src="imgs/wall11.jpg"
+                class="cursor-pointer w-full h-auto rounded-lg thmb" />
+            <img onclick="openLightbox(this.src)" src="imgs/wall12.jpg"
+                class="cursor-pointer w-full h-auto rounded-lg thmb" />
+            <img onclick="openLightbox(this.src)" src="imgs/wall13.jpg"
+                class="cursor-pointer w-full h-auto rounded-lg thmb" />
+            <img onclick="openLightbox(this.src)" src="imgs/wall14.jpg"
+                class="cursor-pointer w-full h-auto rounded-lg thmb" />
+            <img onclick="openLightbox(this.src)" src="imgs/wall15.jpg"
+                class="cursor-pointer w-full h-auto rounded-lg thmb" />
+            <img onclick="openLightbox(this.src)" src="imgs/wall16.jpg"
+                class="cursor-pointer w-full h-auto rounded-lg thmb" />
+            <img onclick="openLightbox(this.src)" src="imgs/wall17.jpg"
+                class="cursor-pointer w-full h-auto rounded-lg thmb" />
+            <img onclick="openLightbox(this.src)" src="imgs/wall18.jpg"
+                class="cursor-pointer w-full h-auto rounded-lg thmb" />
+
+
+        </div>
+
+        <!-- Lightbox modal -->
+        <div id="lightboxModal" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 hidden">
+            <button id="closeModal" class="absolute top-4 right-4 text-white text-2xl">&times;</button>
+            <div id="lightboxContent" class="flex justify-center items-center h-full"></div>
+        </div>
+    </div>
+    <!-- Fixed Footer -->
+    <footer class="footer flex w-full items-center bg-gray-700 dark:bg-gray-800 h-12 text-center sticky bottom-0">
+        <div class="container mx-auto">
+            <p class="text-sm">
+                &copy; All rights reserved by CodeCrafters Labs | <span id="currentYear"></span>
+            </p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="main.js" defer></script>
+</body>
+
+</html>
