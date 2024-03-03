@@ -1,6 +1,6 @@
 /**
-* Template Name: CodeCrafters Labs - v4.7.0
-* Template URL: https://bootstrapmade.com/CodeCrafters Labs-free-multipurpose-html-bootstrap-template/
+* Template Name: CodeCrafters Loft - v4.7.0
+* Template URL: https://bootstrapmade.com/CodeCrafters Loft-free-multipurpose-html-bootstrap-template/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
