@@ -4,12 +4,12 @@
 	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 	<url>
-		<loc>http://codecraftersloft.com/</loc>
+		<loc>http://codecrafterslabs.com/</loc>
 		<lastmod>2022-11-03T18:30:06+00:00</lastmod>
 		<priority>1.00</priority>
 	</url>
 	<url>
-		<loc>http://codecraftersloft.com/index.html</loc>
+		<loc>http://codecrafterslabs.com/index.html</loc>
 		<lastmod>2022-11-03T18:30:06+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>
