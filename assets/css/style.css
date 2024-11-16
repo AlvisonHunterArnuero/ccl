@@ -1607,3 +1607,13 @@ section {
 .third-color-header {
   color: #403D39;
 }
+/*--------------------------------------------------------------
+# Core Values
+--------------------------------------------------------------*/
+
+.core-value-title {
+  color: #222222;
+  margin-left: 60px;
+  -webkit-font-smoothing: auto;
+  font-weight: 400;
+}
