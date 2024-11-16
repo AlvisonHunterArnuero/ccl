@@ -1608,7 +1608,7 @@ section {
   color: #403D39;
 }
 /*--------------------------------------------------------------
-# Core Values
+# Core Values & Services
 --------------------------------------------------------------*/
 
 .core-value-title {
@@ -1616,4 +1616,17 @@ section {
   margin-left: 60px;
   -webkit-font-smoothing: auto;
   font-weight: 400;
+}
+.services-title {
+  color: #222222;
+  -webkit-font-smoothing: auto;
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  transition: color 0.5s ease-out;
+}
+
+.services-title:hover {
+  color: #00AEEF;
+  cursor: pointer;
 }
