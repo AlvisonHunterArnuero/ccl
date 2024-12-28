@@ -1669,7 +1669,17 @@
         class="bi bi-arrow-up-short"></i></a>
 
         <!-- Start of HubSpot Embed Code -->
-        <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/48696927.js"></script>
+        <script>
+          const script = document.createElement('script');
+          script.type = 'text/javascript';
+          script.id = 'hs-script-loader';
+          script.async = true;
+          script.defer = true;
+          script.src = "https://js-na1.hs-scripts.com/48696927.js";
+          script.onload = () => console.log('HubSpot script loaded successfully.');
+          script.onerror = () => console.warn('Failed to load HubSpot script. Try disabling ad blockers.');
+          document.head.appendChild(script);
+        </script>
         <!-- End of HubSpot Embed Code -->
 
     <!-- Vendor JS Files -->
