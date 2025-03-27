@@ -43,12 +43,13 @@ h6 {
   visibility: hidden;
   opacity: 0;
   right: 15px;
-  bottom: 15px;
+  bottom: 20%;
   z-index: 996;
   background: #00AEEF;
-  width: 40px;
-  height: 40px;
-  border-radius: 4px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: #00AEEF;
   transition: all 0.4s;
 }
 
@@ -60,6 +61,7 @@ h6 {
 
 .back-to-top:hover {
   background: #403D39;
+  border: 2px solid #00AEEF;
 }
 
 .back-to-top:hover i {
@@ -1607,6 +1609,7 @@ section {
 .third-color-header {
   color: #403D39;
 }
+
 /*--------------------------------------------------------------
 # Core Values & Services
 --------------------------------------------------------------*/
@@ -1617,6 +1620,7 @@ section {
   -webkit-font-smoothing: auto;
   font-weight: 400;
 }
+
 .services-title {
   color: #222222;
   -webkit-font-smoothing: auto;
