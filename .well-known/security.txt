@@ -1,0 +1,5 @@
+Contact: mailto:codecrafterslabs@gmail.com
+Contact: mailto:alvison@gmail.com
+Expires: 2029-08-09T02:30:00.000Z
+Preferred-Languages: en,es,
+Canonical: https://codecrafterslabs.com/.well-known/security.txt
