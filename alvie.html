@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senior Frontend Architect Profile | 2025 Infographic</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <!-- Palette: Vibrant Tech
+         Primary: Indigo-600 (#4F46E5)
+         Secondary: Cyan-500 (#06B6D4)
+         Accent: Pink-500 (#EC4899)
+         Background: Slate-50 (Light) / Slate-900 (Dark context)
+    -->
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #F8FAFC; /* Slate-50 */
+            color: #1E293B; /* Slate-800 */
+        }
+
+        /* Responsive Chart Container - MANDATORY STYLING */
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 350px; /* Base height */
+            max-height: 400px;
+        }
+
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 400px;
+            }
+        }
+
+        /* Custom Card Styling for Material Feel */
+        .info-card {
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .info-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+
+        /* Connector Lines for CSS Diagrams */
+        .connector-v {
+            width: 2px;
+            background-color: #CBD5E1;
+            height: 2rem;
+            margin: 0 auto;
+        }
+        .connector-arrow-down {
+            width: 0; 
+            height: 0; 
+            border-left: 6px solid transparent;
+            border-right: 6px solid transparent;
+            border-top: 8px solid #CBD5E1;
+            margin: 0 auto;
+        }
+    </style>
+    
+    <!-- 
+        NARRATIVE PLAN:
+        1. Intro/Hook: Highlight the "Senior Frontend Architect" title and high-level stats (6+ years).
+        2. Tech Stack: Doughnut chart showing the balance between Frontend (Expert) and Backend (Strategic).
+        3. Competencies: Radar chart showing the specific "Senior" traits (DX, Accessibility, Performance).
+        4. Integration: CSS Diagram showing the "Full-Stack Bridge" concept.
+        5. Personal/Soft Skills: Bar chart showing the human side (Creativity, Discipline).
+        6. Conclusion/Tags: Summary of keywords.
+        
+        NO SVG USED. NO MERMAID JS USED.
+    -->
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <!-- HERO SECTION -->
+    <header class="bg-gradient-to-r from-indigo-700 via-indigo-600 to-cyan-600 text-white pb-12 pt-10 px-4 shadow-lg">
+        <div class="max-w-6xl mx-auto text-center">
+            <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight mb-2">Senior Frontend Architect</h1>
+            <p class="text-xl md:text-2xl font-light text-indigo-100 mb-6">& Developer Experience (DX) Champion</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto mt-8">
+                <!-- Stat 1 -->
+                <div class="bg-white/10 backdrop-blur-md rounded-xl p-4 border border-white/20">
+                    <div class="text-4xl font-bold text-cyan-300">6+</div>
+                    <div class="text-sm font-semibold uppercase tracking-wider opacity-90">Years Experience</div>
+                </div>
+                <!-- Stat 2 -->
+                <div class="bg-white/10 backdrop-blur-md rounded-xl p-4 border border-white/20">
+                    <div class="text-4xl font-bold text-pink-300">Head</div>
+                    <div class="text-sm font-semibold uppercase tracking-wider opacity-90">Former Role</div>
+                </div>
+                <!-- Stat 3 -->
+                <div class="bg-white/10 backdrop-blur-md rounded-xl p-4 border border-white/20">
+                    <div class="text-4xl font-bold text-cyan-300">Full-Stack</div>
+                    <div class="text-sm font-semibold uppercase tracking-wider opacity-90">Strategic Ability</div>
+                </div>
+            </div>
+            
+            <p class="mt-8 max-w-3xl mx-auto text-indigo-50 leading-relaxed text-lg">
+                Specialize in architecting and scaling high-performance, accessible user interfaces that move the needle on business metrics. Operating at the intersection of craftsmanship, performance, and engineering maturity.
+            </p>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 py-12 space-y-16">
+
+        <!-- SECTION: CORE TECHNOLOGY STACK -->
+        <section>
+            <div class="mb-8 border-l-4 border-indigo-600 pl-4">
+                <h2 class="text-3xl font-bold text-slate-900">Core Architecture & Tech Stack</h2>
+                <p class="text-slate-600 mt-2 text-lg">
+                    My expertise is rooted in the modern, TypeScript-first Frontend ecosystem. While the UI layer is my specialty, I maintain supporting command of the backend to build robust platforms.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <!-- Text Context -->
+                <div class="space-y-4">
+                    <div class="bg-white rounded-lg shadow-md p-6 info-card border-t-4 border-cyan-500">
+                        <h3 class="font-bold text-xl mb-2 text-slate-800">Primary Focus</h3>
+                        <p class="text-slate-600">
+                            Deep specialization in <strong>React, Next.js, and TypeScript</strong> for scalable, SEO-friendly applications. I focus on component-driven architectures that stand the test of time.
+                        </p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-6 info-card border-t-4 border-pink-500">
+                        <h3 class="font-bold text-xl mb-2 text-slate-800">The "Why"</h3>
+                        <p class="text-slate-600">
+                            Choosing the right tool is about balancing <strong>Developer Experience (DX)</strong> with end-user performance. My stack choices prioritize type safety, maintainability, and speed.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Visualization: Doughnut Chart -->
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-center font-bold text-gray-700 mb-4">Technical Expertise Distribution</h3>
+                    <div class="chart-container">
+                        <canvas id="techStackChart"></canvas>
+                    </div>
+                    <p class="text-center text-xs text-gray-500 mt-2 italic">Relative proficiency & focus time allocation</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION: HOLISTIC ENGINEERING PROFILE -->
+        <section class="bg-indigo-50 rounded-2xl p-8 shadow-inner">
+            <div class="mb-8 text-center max-w-3xl mx-auto">
+                <h2 class="text-3xl font-bold text-indigo-900">Engineering Competencies</h2>
+                <p class="text-indigo-700 mt-2 text-lg">
+                    Beyond writing code, a Senior Engineer must drive quality, accessibility, and team velocity. This radar chart visualizes my operational impact.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Visualization: Radar Chart -->
+                <div class="bg-white rounded-lg shadow-lg p-4">
+                    <div class="chart-container">
+                        <canvas id="competencyChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- Descriptive List -->
+                <div class="grid grid-cols-1 gap-4">
+                    <div class="flex items-start bg-white p-4 rounded-lg shadow-sm">
+                        <span class="text-2xl mr-4">🏗️</span>
+                        <div>
+                            <h4 class="font-bold text-indigo-800">Design Systems</h4>
+                            <p class="text-sm text-slate-600">Implementing centralized UI libraries to ensure consistency and speed up feature delivery across teams.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start bg-white p-4 rounded-lg shadow-sm">
+                        <span class="text-2xl mr-4">⚡</span>
+                        <div>
+                            <h4 class="font-bold text-indigo-800">Performance (Core Web Vitals)</h4>
+                            <p class="text-sm text-slate-600">Obsessive optimization of LCP, CLS, and FID to ensure interfaces are not just pretty, but blazing fast.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start bg-white p-4 rounded-lg shadow-sm">
+                        <span class="text-2xl mr-4">♿</span>
+                        <div>
+                            <h4 class="font-bold text-indigo-800">WCAG Accessibility</h4>
+                            <p class="text-sm text-slate-600">Ensuring digital experiences are inclusive and compliant for all users, regardless of ability.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start bg-white p-4 rounded-lg shadow-sm">
+                        <span class="text-2xl mr-4">🎓</span>
+                        <div>
+                            <h4 class="font-bold text-indigo-800">Leadership & Mentorship</h4>
+                            <p class="text-sm text-slate-600">Experience leading teams, establishing coding standards, and fostering a culture of technical excellence.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION: THE FULL STACK BRIDGE (DIAGRAM) -->
+        <section>
+            <div class="mb-8 border-l-4 border-pink-500 pl-4">
+                <h2 class="text-3xl font-bold text-slate-900">The Full-Stack Bridge</h2>
+                <p class="text-slate-600 mt-2 text-lg">
+                    While my specialty is UI, I bridge the gap between design and data. I leverage Node.js and GraphQL to ensure seamless API integrations and clear communication with backend teams.
+                </p>
+            </div>
+
+            <!-- CSS/HTML Diagram (NO SVG/MERMAID) -->
+            <div class="bg-slate-100 p-8 rounded-xl border border-slate-200 overflow-x-auto">
+                <div class="flex flex-col md:flex-row justify-center items-center gap-4 min-w-[600px]">
+                    
+                    <!-- Node 1 -->
+                    <div class="w-64 bg-indigo-600 text-white p-6 rounded-lg shadow-lg text-center relative z-10">
+                        <div class="text-3xl mb-2">🎨</div>
+                        <h4 class="font-bold text-lg">Frontend Architecture</h4>
+                        <p class="text-xs text-indigo-200 mt-2">React, Next.js, Vue</p>
+                        <p class="text-xs text-indigo-200">Component Logic & State</p>
+                    </div>
+
+                    <!-- Arrow Horizontal (Desktop) -->
+                    <div class="hidden md:flex flex-col items-center w-24">
+                        <div class="text-xs font-bold text-slate-500 mb-1">Collaborate</div>
+                        <div class="h-1 w-full bg-slate-300"></div>
+                        <div class="text-xs font-bold text-slate-500 mt-1">Integrate</div>
+                    </div>
+                    <!-- Arrow Vertical (Mobile) -->
+                    <div class="md:hidden flex flex-col items-center h-16">
+                        <div class="w-1 h-full bg-slate-300"></div>
+                        <div class="connector-arrow-down"></div>
+                    </div>
+
+                    <!-- Node 2 -->
+                    <div class="w-64 bg-cyan-600 text-white p-6 rounded-lg shadow-lg text-center relative z-10">
+                        <div class="text-3xl mb-2">🌉</div>
+                        <h4 class="font-bold text-lg">The "Bridge" Layer</h4>
+                        <p class="text-xs text-cyan-200 mt-2">Node.js / Express</p>
+                        <p class="text-xs text-cyan-200">GraphQL & REST API Design</p>
+                    </div>
+
+                    <!-- Arrow Horizontal -->
+                    <div class="hidden md:flex flex-col items-center w-24">
+                        <div class="text-xs font-bold text-slate-500 mb-1">Query</div>
+                        <div class="h-1 w-full bg-slate-300"></div>
+                        <div class="text-xs font-bold text-slate-500 mt-1">Data</div>
+                    </div>
+                     <!-- Arrow Vertical (Mobile) -->
+                     <div class="md:hidden flex flex-col items-center h-16">
+                        <div class="w-1 h-full bg-slate-300"></div>
+                        <div class="connector-arrow-down"></div>
+                    </div>
+
+                    <!-- Node 3 -->
+                    <div class="w-64 bg-slate-700 text-white p-6 rounded-lg shadow-lg text-center relative z-10">
+                        <div class="text-3xl mb-2">🗄️</div>
+                        <h4 class="font-bold text-lg">Backend Systems</h4>
+                        <p class="text-xs text-slate-300 mt-2">Database & Infrastructure</p>
+                        <p class="text-xs text-slate-300">Platform Engineering</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION: PERSONAL ATTRIBUTES & SOFT SKILLS -->
+        <section>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-3xl font-bold text-slate-900 mb-4">Beyond the Code</h2>
+                    <p class="text-slate-600 mb-6 text-lg">
+                        I see myself not only as an engineer but as a problem-solver and leader. Outside of tech, my roles as a musician, polyglot, and father fuel my discipline and resilience.
+                    </p>
+                    
+                    <div class="grid grid-cols-1 gap-4">
+                        <div class="bg-white border-l-4 border-indigo-500 p-4 shadow-sm rounded-r-lg">
+                            <h4 class="font-bold text-indigo-900">🎵 Musician</h4>
+                            <p class="text-sm text-slate-600">Fuels creativity and improvisation skills applied to coding.</p>
+                        </div>
+                        <div class="bg-white border-l-4 border-cyan-500 p-4 shadow-sm rounded-r-lg">
+                            <h4 class="font-bold text-cyan-900">🗣️ Polyglot</h4>
+                            <p class="text-sm text-slate-600">Enhances communication and adaptability in diverse teams.</p>
+                        </div>
+                        <div class="bg-white border-l-4 border-pink-500 p-4 shadow-sm rounded-r-lg">
+                            <h4 class="font-bold text-pink-900">👨‍👧 Father</h4>
+                            <p class="text-sm text-slate-600">Teaches patience, mentorship, and long-term planning.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-center font-bold text-gray-700 mb-4">Attribute Intensity</h3>
+                    <div class="chart-container">
+                        <canvas id="attributesChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER: KEYWORDS -->
+        <footer class="bg-slate-900 text-slate-300 py-12 rounded-t-3xl mt-12">
+            <div class="max-w-4xl mx-auto px-4 text-center">
+                <h3 class="text-2xl font-bold text-white mb-6">2025 Specialties</h3>
+                <div class="flex flex-wrap justify-center gap-3">
+                    <span class="px-4 py-2 bg-indigo-800 rounded-full text-sm font-semibold text-indigo-200">Frontend Architecture</span>
+                    <span class="px-4 py-2 bg-indigo-800 rounded-full text-sm font-semibold text-indigo-200">Developer Experience (DX)</span>
+                    <span class="px-4 py-2 bg-indigo-800 rounded-full text-sm font-semibold text-indigo-200">Design Systems</span>
+                    <span class="px-4 py-2 bg-cyan-900 rounded-full text-sm font-semibold text-cyan-200">TypeScript</span>
+                    <span class="px-4 py-2 bg-cyan-900 rounded-full text-sm font-semibold text-cyan-200">React & Next.js</span>
+                    <span class="px-4 py-2 bg-pink-900 rounded-full text-sm font-semibold text-pink-200">Performance Optimization</span>
+                    <span class="px-4 py-2 bg-pink-900 rounded-full text-sm font-semibold text-pink-200">WCAG Accessibility</span>
+                    <span class="px-4 py-2 bg-slate-700 rounded-full text-sm font-semibold text-slate-200">Node.js</span>
+                    <span class="px-4 py-2 bg-slate-700 rounded-full text-sm font-semibold text-slate-200">GraphQL</span>
+                </div>
+                <p class="mt-8 text-sm opacity-50">&copy; 2025 Professional Profile Infographic. Generated with AI.</p>
+            </div>
+        </footer>
+
+    </main>
+
+    <!-- CHART.JS LOGIC -->
+    <script>
+        // --- HELPER FUNCTION: Label Splitting for >16 chars ---
+        function formatLabels(labels) {
+            return labels.map(label => {
+                if (label.length > 16) {
+                    const words = label.split(' ');
+                    const lines = [];
+                    let currentLine = words[0];
+
+                    for (let i = 1; i < words.length; i++) {
+                        if ((currentLine + ' ' + words[i]).length <= 16) {
+                            currentLine += ' ' + words[i];
+                        } else {
+                            lines.push(currentLine);
+                            currentLine = words[i];
+                        }
+                    }
+                    lines.push(currentLine);
+                    return lines;
+                }
+                return label;
+            });
+        }
+
+        // --- SHARED TOOLTIP CONFIG (MANDATORY) ---
+        const sharedTooltipConfig = {
+            callbacks: {
+                title: function(tooltipItems) {
+                    const item = tooltipItems[0];
+                    let label = item.chart.data.labels[item.dataIndex];
+                    if (Array.isArray(label)) {
+                        return label.join(' ');
+                    } else {
+                        return label;
+                    }
+                }
+            }
+        };
+
+        // --- CHART 1: Tech Stack Distribution (Doughnut) ---
+        const ctxStack = document.getElementById('techStackChart').getContext('2d');
+        const rawStackLabels = ['React Ecosystem', 'TypeScript', 'Next.js', 'Vue.js / Angular', 'Node.js / Backend', 'DevOps / Tools'];
+        
+        new Chart(ctxStack, {
+            type: 'doughnut',
+            data: {
+                labels: formatLabels(rawStackLabels),
+                datasets: [{
+                    label: 'Focus Level',
+                    data: [35, 25, 20, 10, 5, 5], // Approximate distribution based on "Specialist" vs "Supporting"
+                    backgroundColor: [
+                        '#4F46E5', // Indigo 600
+                        '#6366F1', // Indigo 500
+                        '#06B6D4', // Cyan 500
+                        '#22D3EE', // Cyan 400
+                        '#EC4899', // Pink 500
+                        '#94A3B8'  // Slate 400
+                    ],
+                    borderWidth: 0,
+                    hoverOffset: 10
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    tooltip: sharedTooltipConfig,
+                    legend: {
+                        position: 'bottom',
+                        labels: { boxWidth: 12, padding: 15 }
+                    }
+                }
+            }
+        });
+
+        // --- CHART 2: Engineering Competencies (Radar) ---
+        const ctxComp = document.getElementById('competencyChart').getContext('2d');
+        const rawCompLabels = ['Frontend Architecture', 'Design Systems', 'Core Web Vitals', 'Accessibility (A11y)', 'Leadership', 'Backend Logic'];
+
+        new Chart(ctxComp, {
+            type: 'radar',
+            data: {
+                labels: formatLabels(rawCompLabels),
+                datasets: [{
+                    label: 'Proficiency Level',
+                    data: [95, 90, 85, 90, 80, 65],
+                    fill: true,
+                    backgroundColor: 'rgba(6, 182, 212, 0.2)', // Cyan transparent
+                    borderColor: '#06B6D4',
+                    pointBackgroundColor: '#4F46E5',
+                    pointBorderColor: '#fff',
+                    pointHoverBackgroundColor: '#fff',
+                    pointHoverBorderColor: '#4F46E5'
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    tooltip: sharedTooltipConfig,
+                    legend: { display: false }
+                },
+                scales: {
+                    r: {
+                        angleLines: { color: 'rgba(0,0,0,0.1)' },
+                        grid: { color: 'rgba(0,0,0,0.1)' },
+                        pointLabels: {
+                            font: { size: 11, weight: '600' },
+                            color: '#334155'
+                        },
+                        suggestedMin: 0,
+                        suggestedMax: 100
+                    }
+                }
+            }
+        });
+
+        // --- CHART 3: Personal Attributes (Bar) ---
+        const ctxAttr = document.getElementById('attributesChart').getContext('2d');
+        const rawAttrLabels = ['Creative Problem Solving', 'Mentorship & Empathy', 'Technical Discipline', 'Adaptability', 'Curiosity'];
+
+        new Chart(ctxAttr, {
+            type: 'bar',
+            data: {
+                labels: formatLabels(rawAttrLabels),
+                datasets: [{
+                    label: 'Attribute Strength',
+                    data: [95, 90, 95, 85, 100],
+                    backgroundColor: [
+                        '#4F46E5',
+                        '#EC4899',
+                        '#06B6D4',
+                        '#8B5CF6',
+                        '#10B981'
+                    ],
+                    borderRadius: 6
+                }]
+            },
+            options: {
+                indexAxis: 'y', // Horizontal Bar
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    tooltip: sharedTooltipConfig,
+                    legend: { display: false }
+                },
+                scales: {
+                    x: {
+                        grid: { display: false },
+                        suggestedMax: 100
+                    },
+                    y: {
+                        grid: { display: false },
+                        ticks: { font: { weight: '600' } }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
