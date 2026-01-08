@@ -3,7 +3,7 @@
   X-Frame-Options: DENY
   X-XSS-Protection: 1; mode=block
   Referrer-Policy: strict-origin-when-cross-origin
-  Content-Security-Policy:default-src 'self'; script-src 'self' 'unsafe-inline' https://client.crisp.chat https://www.googletagmanager.com https://www.google-analytics.com https://www.googleoptimize.com https://www.google.com https://www.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com da
+  w.google.com https://www.gstatic.com https://client.crisp.chat;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com data:;img-src 'self' data: https:;connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://www.gstatic.com https://client.crisp.chat https://*.crisp.chat;frame-src https://www.google.com https://www.googletagmanager.com https://client.crisp.chat;
   Permissions-Policy: geolocation=(), camera=(), microphone=()
   Cross-Origin-Embedder-Policy: require-corp
   Cross-Origin-Opener-Policy: same-origin
