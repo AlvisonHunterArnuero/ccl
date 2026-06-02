@@ -1,0 +1,64 @@
+# CodeCrafters Labs
+
+> Full-Stack Web Development and SEO agency founded in 2019 in Jinotepe, Carazo, Nicaragua. We build high-performance web applications, SEO-optimized sites, and custom SaaS products using React, Next.js, Node.js, and Python. We serve clients across Latin America, the United States, and Europe. We also run a structured web developer mentoring program that has placed graduates in software engineering roles worldwide.
+
+CodeCrafters Labs (CCL) was founded by Alvison Hunter Arnuero, an AI-Integrated Full-Stack Engineer with 10+ years of experience. The agency specializes in turning complex business requirements into scalable, production-ready digital solutions. CCL has delivered projects for clients in real estate, hospitality, legal, construction, logistics, and digital marketing.
+
+## Identity & Contact
+
+- **Agency name:** CodeCrafters Labs
+- **Short name:** CCL
+- **Slogan:** Transforming Ideas into Engaging Digital Solutions
+- **Founded:** September 2, 2019
+- **Location:** Residencial Praderas de Xilotepelt, #G2, Jinotepe, Carazo, Nicaragua
+- **Email:** codecrafterslabs@gmail.com
+- **Phone:** +505 8863 8751
+- **WhatsApp:** https://wa.me/150588638751
+- **Website:** https://codecrafterslabs.com
+- **LinkedIn:** https://www.linkedin.com/company/codecrafters-labs/
+- **Instagram:** https://www.instagram.com/codecrafterslabs
+- **Founder:** Alvison Hunter Arnuero — https://alvisonhunter.com
+
+## Services
+
+- **Full-Stack Web Development:** React, Next.js, Node.js, Python — custom applications, e-commerce, CMS, QA & testing
+- **UX & UI Design:** User research, wireframes, flow charts, prototypes, design systems, content strategy
+- **SEO Optimization:** Technical SEO, Core Web Vitals, content optimization, organic traffic growth
+- **Web Performance Optimization:** Lighthouse audits, LCP/FID/CLS improvement, mobile-first optimization
+- **Headless CMS Development:** Contentful, Strapi, Sanity, KeystoneJS
+- **WordPress Development:** Custom themes, WooCommerce, PMS integrations (Hostfully, PriceLabs, Airbnb)
+- **SaaS Product Development:** Scalable application architecture, API design, authentication, cloud deployment
+- **Small Business Growth:** Web presence, social media, locally tailored digital strategies for SMEs
+- **Web Developer Mentoring Program:** Structured training in React, Next.js, TypeScript, Node.js, Python — includes interview prep and job placement support
+
+## Tech Stack
+
+- **Frontend:** React, Next.js, TypeScript, Vue.js, Angular, Gatsby, Astro, Remix, Ember
+- **Backend:** Node.js, Python, FastAPI, Flask, GraphQL, REST APIs
+- **Databases:** PostgreSQL, MongoDB, MySQL, Firebase
+- **Cloud & DevOps:** AWS, Docker, GitHub Actions, CI/CD
+- **CMS:** Contentful, Strapi, Sanity, KeystoneJS, WordPress, Storyblok
+- **Testing:** Playwright, Jest, Cypress, React Testing Library
+- **PMS Integrations:** Hostfully, PriceLabs, TurnoverBnB, Airbnb
+
+## Portfolio Clients
+
+- [Resolute Pros](https://www.resolutepros.com): Back-office solutions platform
+- [Influency.me](https://www.influency.me/en/): Digital influencer agency
+- [Realfund](https://realfund.io): Real estate crowdfunding platform
+- [Greenberg & Stein, PC](https://greenbergandstein.com): Personal injury attorneys
+- [Monyta](https://monyta.com): Sales bots platform
+- [Alkeyler](https://www.alkeyler.com): House rentals platform
+- [Dream Customs LLC](https://www.dreamcustomllc.com): Outdoor construction — design and build
+- [Garbett Homes](https://www.garbetthomes.com): Home building company
+
+## Mentoring Program
+
+CCL's web developer mentoring program has trained and placed 10+ developers in professional software engineering roles. The program covers JavaScript, TypeScript, React, Next.js, Vue.js, Node.js, and Python, with pair programming, interview simulation, and dedicated career support.
+
+## Optional
+
+- [llms-full.txt](https://codecrafterslabs.com/llms-full.txt): Full expanded profile with complete service detail, portfolio descriptions, and team information
+- [agents.json](https://codecrafterslabs.com/agents.json): Machine-readable agent manifest for AI systems
+- [Sitemap](https://codecrafterslabs.com/sitemap.xml): Full site map for crawlers
+- [Founder profile](https://alvisonhunter.com/llms.txt): Alvison Hunter's personal llms.txt

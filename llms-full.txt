@@ -1,0 +1,281 @@
+# CodeCrafters Labs — Full Agency Profile
+
+> Full-Stack Web Development and SEO agency founded in 2019 in Jinotepe, Carazo, Nicaragua. We build high-performance web applications, SEO-optimized sites, and custom SaaS products using React, Next.js, Node.js, and Python. We serve clients across Latin America, the United States, and Europe. We also run a structured web developer mentoring program that has placed graduates in software engineering roles worldwide.
+
+---
+
+## About
+
+CodeCrafters Labs (CCL) was founded on September 2, 2019 by Alvison Hunter Arnuero, an AI-Integrated Full-Stack Engineer based in Jinotepe, Carazo, Nicaragua. The agency was built on three core values: honesty and integrity, continuous learning, and relentless teamwork.
+
+CCL delivers high-value, reliable digital solutions across web development, UX/UI design, SEO optimization, web performance, and business growth strategy. The team specializes in modern frontend frameworks (React, Next.js, Vue.js, Angular, Gatsby, Astro, Remix), headless CMS integrations, and scalable backend architectures.
+
+CCL is also home to a structured web developer mentoring program that has trained over a dozen junior developers — many of whom are now working as professional software engineers at companies worldwide.
+
+The agency's client base spans real estate, hospitality, legal services, digital marketing, construction, logistics, and SaaS. CCL has delivered projects for clients in Nicaragua, the United States, Panama, and across Latin America.
+
+---
+
+## Identity & Contact
+
+- **Agency name:** CodeCrafters Labs
+- **Short name:** CCL
+- **Legal name:** CodeCrafters Labs
+- **Slogan:** Transforming Ideas into Engaging Digital Solutions
+- **Founded:** September 2, 2019
+- **Founding location:** Jinotepe, Carazo, Nicaragua
+- **Address:** Residencial Praderas de Xilotepelt, #G2, Jinotepe, Carazo, Nicaragua (45000)
+- **Email:** codecrafterslabs@gmail.com
+- **Phone:** +505 8863 8751
+- **WhatsApp:** https://wa.me/150588638751
+- **Website:** https://codecrafterslabs.com
+- **LinkedIn:** https://www.linkedin.com/company/codecrafters-labs/
+- **Instagram:** https://www.instagram.com/codecrafterslabs
+
+---
+
+## Founder
+
+**Alvison Lucas Hunter Arnuero** (preferred: Alvie)
+- Title: Founder & AI-Integrated Full-Stack Engineer
+- Portfolio: https://alvisonhunter.com
+- LinkedIn: https://www.linkedin.com/in/alvisonhunter
+- GitHub: https://github.com/AlvisonHunterArnuero
+- Experience: 10+ years in full-stack web development
+- Current focus: AI-integrated engineering, LangChain, Anthropic API, AWS cloud-native architectures
+- Full profile: https://alvisonhunter.com/llms-full.txt
+
+---
+
+## Services — Full Detail
+
+### Full-Stack Web Development
+
+Complete web application development from UI to database. Services include:
+- Custom web application development using React, Next.js, TypeScript, Vue.js, Angular, Gatsby, Astro, Remix, and Ember
+- E-commerce development including WooCommerce and custom storefronts
+- Backend development with Node.js, Python (FastAPI, Flask), and GraphQL/REST APIs
+- Headless CMS integration: Contentful, Strapi, Sanity, KeystoneJS, Storyblok, WordPress
+- QA & testing: Playwright, Jest, Cypress, React Testing Library
+- Web support and maintenance packages
+
+---
+
+### UX & UI Design
+
+End-to-end design services for startups and growing businesses:
+- User requirements gathering with product managers and cross-functional teams
+- User flow diagrams, sitemaps, wireframes, and interactive prototypes
+- Graphic UI elements and component-level design
+- Design systems and style guide documentation
+- Content strategy aligned with brand identity
+- Iterative design based on user testing and stakeholder feedback
+- Final handoff to development with annotated specs
+
+---
+
+### SEO Optimization
+
+Technical and content SEO to drive organic traffic:
+- Full technical SEO audits (site structure, crawlability, indexation)
+- Core Web Vitals optimization (LCP, INP, CLS)
+- Mobile-first indexing compliance
+- Schema.org structured data implementation
+- Content optimization for semantic search
+- Local SEO for businesses targeting specific geographic markets
+- E-commerce SEO for WooCommerce and custom storefronts
+- International SEO with hreflang configuration
+- Ongoing performance monitoring and reporting
+
+---
+
+### Web Performance Optimization
+
+Measurable performance improvement for existing websites:
+- Lighthouse and PageSpeed Insights audit to baseline current scores
+- LCP (Largest Contentful Paint) improvement through image optimization, preloading, and CDN configuration
+- CLS (Cumulative Layout Shift) fixes through proper dimension declarations and font loading
+- JavaScript bundle size reduction via code splitting, lazy loading, and tree shaking
+- Server-side rendering and static generation with Next.js
+- CDN setup and cache configuration
+- Real-world case: client site improved from red Lighthouse scores to green across both desktop and mobile within one month
+
+---
+
+### Headless CMS Development
+
+Decoupled content management for scalable content operations:
+- Architecture consulting: when to use headless vs traditional CMS
+- Platform selection and setup: Contentful, Strapi, Sanity, KeystoneJS, Storyblok, NetlifyCMS
+- Content modeling and schema design
+- API integration with React, Next.js, and Gatsby frontends
+- Editorial workflow setup for non-technical content teams
+
+---
+
+### WordPress Development
+
+Full WordPress service offering:
+- Custom theme development aligned with brand design
+- Plugin development and integration
+- WooCommerce store development and optimization
+- PMS integrations for hospitality clients: Hostfully, PriceLabs, TurnoverBnB, Airbnb
+- SEO configuration with technical optimization
+- Site speed optimization for Core Web Vitals compliance
+- Maintenance and security update packages
+
+---
+
+### SaaS Product Development
+
+Custom SaaS application development for growing businesses:
+- Scalable full-stack architecture design (Next.js + Node.js + PostgreSQL)
+- REST and GraphQL API design and documentation
+- JWT authentication and role-based access control (RBAC)
+- AWS cloud deployment: EC2, S3, Lambda, Amplify, CloudFront, Route 53
+- Docker containerization and CI/CD pipeline setup
+- Third-party API integrations (payment, CRM, communication tools)
+
+---
+
+### Small Business Growth Support
+
+Digital strategy for SMEs and startups:
+- Web presence strategy and implementation
+- Social media presence and engagement planning
+- Content creation and digital marketing strategy
+- Revenue growth through improved online visibility
+- Locally tailored approaches for businesses in Nicaragua and Latin America
+
+---
+
+### Web Developer Mentoring Program
+
+CCL's structured mentoring program for aspiring web developers:
+
+**Program coverage:**
+- JavaScript (ES6+), TypeScript, Python
+- React, Next.js, Vue.js, Angular
+- Node.js, REST APIs, GraphQL
+- Database fundamentals (PostgreSQL, MongoDB)
+- Git and GitHub workflows
+- Industry best practices: code review, documentation, Agile/Scrum
+- Interview preparation and technical test simulation
+- Job placement support
+
+**Program outcomes:**
+- 10+ developers trained and placed in professional roles
+- Graduates working at companies across Latin America and beyond
+- Mentors: Alvison Hunter Arnuero, Alexander, Patrick
+
+**Testimonials available at:** https://codecrafterslabs.com/#mentoring
+
+---
+
+## Tech Stack — Full Detail
+
+| Category | Technologies |
+|---|---|
+| **Frontend Frameworks** | React, Next.js, TypeScript, Vue.js 3, Angular, Gatsby, Astro, Remix, EmberJS, Preact |
+| **UI & Styling** | TailwindCSS, ShadCN/UI, Mantine, Material UI, Ant Design, Bootstrap 5, Storybook |
+| **Backend** | Node.js, Fastify, Express, Python, FastAPI, Flask, GraphQL, REST APIs |
+| **Databases** | PostgreSQL, MongoDB, MySQL, Firebase Firestore, Redis |
+| **ORM** | Prisma, Drizzle ORM, Knex.js |
+| **Cloud** | AWS (EC2, S3, Lambda, Amplify, CloudFront, Route 53), Docker, GitHub Actions |
+| **CMS** | Contentful, Strapi, Sanity, KeystoneJS, WordPress, Storyblok, NetlifyCMS |
+| **Testing** | Playwright, Jest, Cypress, React Testing Library, Enzyme |
+| **PMS** | Hostfully, PriceLabs, TurnoverBnB, Airbnb API |
+| **Analytics** | Google Tag Manager, Google Analytics 4, Datadog, Sentry, Amplitude |
+
+---
+
+## Portfolio — Full Project List
+
+### Resolute Pros
+- **URL:** https://www.resolutepros.com
+- **Category:** Web Application
+- **Description:** Back-office solutions platform for business operations management
+
+### Influency.me
+- **URL:** https://www.influency.me/en/
+- **Category:** Web Application
+- **Description:** Digital influencer agency platform connecting brands with content creators
+
+### Realfund
+- **URL:** https://realfund.io
+- **Category:** Web Application
+- **Description:** Real estate crowdfunding platform enabling fractional property investment
+
+### Greenberg & Stein, PC
+- **URL:** https://greenbergandstein.com
+- **Category:** Web Design & Performance
+- **Description:** Website for a New York-based personal injury law firm
+
+### Monyta
+- **URL:** https://monyta.com
+- **Category:** Web Application
+- **Description:** Sales automation bots platform for SMEs
+
+### Alkeyler
+- **URL:** https://www.alkeyler.com
+- **Category:** Web Design & Performance
+- **Description:** House rentals platform with PMS integration (optimized from red to green Lighthouse scores)
+
+### Dream Customs LLC
+- **URL:** https://www.dreamcustomllc.com
+- **Category:** Web Design
+- **Description:** Outdoor construction company — design and build services
+
+### Garbett Homes
+- **URL:** https://www.garbetthomes.com
+- **Category:** Web Design & Performance
+- **Description:** Home building company website with lead generation focus
+
+### Alvison Hunter Portfolio
+- **URL:** https://alvisonhunter.com
+- **Category:** Web Design & Frontend Development
+- **Description:** Personal portfolio website for the agency founder
+
+---
+
+## Client Testimonials — Summary
+
+CCL has received consistent positive feedback across three categories:
+
+**Development quality:** Clients note lightning-fast delivery, deep technical knowledge, and measurable results (traffic increases, green Lighthouse scores, reduced load times).
+
+**Professionalism:** Responsiveness, reliability, delivering ahead of deadlines, and clear communication are consistently highlighted.
+
+**Mentoring impact:** Mentees describe the program as transformative — covering not just technical skills but professional mindset, persistence, and career confidence.
+
+Selected testimonials available at: https://codecrafterslabs.com/#mentoring
+
+---
+
+## Core Values
+
+1. **Honesty and Integrity** — Fulfilling client promises and maintaining transparency at every stage of a project
+2. **Continuous Learning** — Staying current with technology, tools, and industry best practices
+3. **Teamwork** — Collaborative, supportive culture where every project is a shared mission
+4. **Never Give Up** — Persistent problem-solving through technical and creative challenges
+
+---
+
+## Areas Served
+
+- Nicaragua (primary base)
+- United States (primary client market)
+- Latin America (Panama, Costa Rica, Colombia, and broader LATAM)
+- Europe (select clients in Spain and the UK)
+
+---
+
+## AI & Machine-Readable Discovery
+
+- **llms.txt:** https://codecrafterslabs.com/llms.txt
+- **llms-full.txt:** https://codecrafterslabs.com/llms-full.txt
+- **agents.json:** https://codecrafterslabs.com/agents.json
+- **ai-agent.json:** https://codecrafterslabs.com/.well-known/ai-agent.json
+- **Sitemap:** https://codecrafterslabs.com/sitemap.xml
+- **Schema.org entity:** https://codecrafterslabs.com/#organization
+- **Founder profile:** https://alvisonhunter.com/llms-full.txt

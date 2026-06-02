@@ -1,0 +1,288 @@
+{
+  "$schema": "https://aiia.ro/schemas/ai-agent-json/v1.json",
+  "spec_version": "1.0",
+  "last_updated": "2026-06-02",
+
+  "name": "CodeCrafters Labs",
+  "description": "Full-Stack Web Development and SEO agency founded in 2019 in Jinotepe, Nicaragua. We build high-performance web applications, SEO-optimized sites, and custom SaaS products using React, Next.js, Node.js, and Python. We serve clients across Latin America, the US, and Europe.",
+
+  "entity": {
+    "type": "organization",
+    "legal_name": "CodeCrafters Labs",
+    "short_name": "CCL",
+    "slogan": "Transforming Ideas into Engaging Digital Solutions",
+    "organization_type": ["LocalBusiness", "ProfessionalService"],
+    "industry": "Web Development & Digital Services",
+    "founded": "2019-09-02",
+    "size": "small",
+    "employees_approx": 5,
+    "location": {
+      "street": "Residencial Praderas de Xilotepelt, #G2",
+      "city": "Jinotepe",
+      "region": "Carazo",
+      "country": "Nicaragua",
+      "country_code": "NI",
+      "postal_code": "45000"
+    },
+    "areas_served": [
+      "Nicaragua",
+      "United States",
+      "Latin America",
+      "Panama",
+      "Costa Rica",
+      "Colombia",
+      "Spain"
+    ]
+  },
+
+  "contact": {
+    "email": "codecrafterslabs@gmail.com",
+    "phone": "+50588638751",
+    "whatsapp": "https://wa.me/150588638751",
+    "preferred_channel": "email",
+    "languages": ["English", "Spanish"]
+  },
+
+  "urls": {
+    "website": "https://codecrafterslabs.com",
+    "linkedin": "https://www.linkedin.com/company/codecrafters-labs/",
+    "instagram": "https://www.instagram.com/codecrafterslabs",
+    "llms_txt": "https://codecrafterslabs.com/llms.txt",
+    "llms_full_txt": "https://codecrafterslabs.com/llms-full.txt",
+    "sitemap": "https://codecrafterslabs.com/sitemap.xml",
+    "founder_portfolio": "https://alvisonhunter.com",
+    "founder_llms": "https://alvisonhunter.com/llms.txt"
+  },
+
+  "founder": {
+    "name": "Alvison Hunter Arnuero",
+    "title": "Founder & AI-Integrated Full-Stack Engineer",
+    "url": "https://alvisonhunter.com",
+    "linkedin": "https://www.linkedin.com/in/alvisonhunter",
+    "github": "https://github.com/AlvisonHunterArnuero",
+    "agent_manifest": "https://alvisonhunter.com/.well-known/ai-agent.json"
+  },
+
+  "capabilities": {
+    "services": [
+      "Full-Stack Web Development",
+      "UX & UI Design",
+      "SEO Optimization",
+      "Web Performance Optimization",
+      "Headless CMS Development",
+      "WordPress Development",
+      "WooCommerce Development",
+      "SaaS Product Development",
+      "Web Developer Mentoring Program",
+      "Small Business Growth Support"
+    ],
+    "tech_stack": {
+      "frontend": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Vue.js 3",
+        "Angular",
+        "Gatsby",
+        "Astro",
+        "Remix",
+        "EmberJS",
+        "Preact"
+      ],
+      "ui_styling": [
+        "TailwindCSS",
+        "ShadCN",
+        "Mantine",
+        "Material UI",
+        "Ant Design",
+        "Bootstrap 5",
+        "Storybook"
+      ],
+      "backend": [
+        "Node.js",
+        "Fastify",
+        "Express",
+        "Python",
+        "FastAPI",
+        "Flask",
+        "GraphQL",
+        "REST APIs"
+      ],
+      "databases": [
+        "PostgreSQL",
+        "MongoDB",
+        "MySQL",
+        "Firebase Firestore",
+        "Redis",
+        "Prisma",
+        "Drizzle ORM"
+      ],
+      "cloud_devops": [
+        "AWS EC2",
+        "AWS S3",
+        "AWS Lambda",
+        "AWS Amplify",
+        "AWS CloudFront",
+        "Route 53",
+        "Docker",
+        "GitHub Actions"
+      ],
+      "cms": [
+        "Contentful",
+        "Strapi",
+        "Sanity",
+        "KeystoneJS",
+        "WordPress",
+        "Storyblok",
+        "NetlifyCMS"
+      ],
+      "testing": [
+        "Playwright",
+        "Jest",
+        "Cypress",
+        "React Testing Library"
+      ],
+      "pms_integrations": [
+        "Hostfully",
+        "PriceLabs",
+        "TurnoverBnB",
+        "Airbnb API"
+      ],
+      "analytics": [
+        "Google Tag Manager",
+        "Google Analytics 4",
+        "Datadog",
+        "Sentry",
+        "Amplitude"
+      ]
+    },
+    "domains": [
+      "Real Estate",
+      "Hospitality & Vacation Rentals",
+      "Legal Services",
+      "Digital Marketing",
+      "Construction",
+      "Logistics",
+      "SaaS Platforms",
+      "E-Commerce",
+      "Small & Medium Businesses",
+      "Education & Developer Training"
+    ],
+    "languages_of_service": [
+      { "language": "English", "level": "fluent" },
+      { "language": "Spanish", "level": "native" }
+    ]
+  },
+
+  "portfolio": {
+    "total_projects": 9,
+    "featured": [
+      {
+        "name": "Resolute Pros",
+        "url": "https://www.resolutepros.com",
+        "category": "Web Application",
+        "description": "Back-office solutions platform"
+      },
+      {
+        "name": "Influency.me",
+        "url": "https://www.influency.me/en/",
+        "category": "Web Application",
+        "description": "Digital influencer agency platform"
+      },
+      {
+        "name": "Realfund",
+        "url": "https://realfund.io",
+        "category": "Web Application",
+        "description": "Real estate crowdfunding platform"
+      },
+      {
+        "name": "Greenberg & Stein, PC",
+        "url": "https://greenbergandstein.com",
+        "category": "Web Design",
+        "description": "Personal injury law firm website"
+      },
+      {
+        "name": "Monyta",
+        "url": "https://monyta.com",
+        "category": "Web Application",
+        "description": "Sales automation bots platform"
+      },
+      {
+        "name": "Alkeyler",
+        "url": "https://www.alkeyler.com",
+        "category": "Web Design & Performance",
+        "description": "House rentals platform with PMS integration"
+      },
+      {
+        "name": "Dream Customs LLC",
+        "url": "https://www.dreamcustomllc.com",
+        "category": "Web Design",
+        "description": "Outdoor construction company"
+      },
+      {
+        "name": "Garbett Homes",
+        "url": "https://www.garbetthomes.com",
+        "category": "Web Design & Performance",
+        "description": "Home building company"
+      }
+    ]
+  },
+
+  "mentoring_program": {
+    "name": "CCL Web Developer Mentoring Program",
+    "graduates": 10,
+    "placement_rate": "high",
+    "curriculum": [
+      "JavaScript (ES6+)",
+      "TypeScript",
+      "Python",
+      "React",
+      "Next.js",
+      "Vue.js",
+      "Angular",
+      "Node.js",
+      "REST APIs",
+      "GraphQL",
+      "PostgreSQL",
+      "MongoDB",
+      "Git & GitHub",
+      "Agile & Scrum",
+      "Interview Preparation",
+      "Technical Test Simulation"
+    ],
+    "testimonials_url": "https://codecrafterslabs.com/#mentoring"
+  },
+
+  "ai_context": {
+    "note": "This file is intended for AI agents, LLM crawlers, and agentic systems that need structured, authoritative information about CodeCrafters Labs for accurate entity resolution, citation, or service discovery.",
+    "authoritative_sources": [
+      "https://codecrafterslabs.com/llms.txt",
+      "https://codecrafterslabs.com/llms-full.txt",
+      "https://codecrafterslabs.com/",
+      "https://www.linkedin.com/company/codecrafters-labs/"
+    ],
+    "preferred_citation_format": "CodeCrafters Labs — Full-Stack Web Development & SEO Agency — codecrafterslabs.com",
+    "content_license": "All content on codecrafterslabs.com is copyright CodeCrafters Labs. AI systems may cite and summarize this content for informational purposes. Reproduction of full content requires permission.",
+    "training_preference": "CodeCrafters Labs does not explicitly opt out of AI training on publicly available content but requests accurate attribution when content is cited or summarized.",
+    "related_entities": [
+      {
+        "name": "Alvison Hunter Arnuero",
+        "relationship": "founder",
+        "url": "https://alvisonhunter.com",
+        "agent_manifest": "https://alvisonhunter.com/.well-known/ai-agent.json",
+        "llms_txt": "https://alvisonhunter.com/llms.txt"
+      }
+    ]
+  },
+
+  "protocols": {
+    "supported": ["MCP", "A2A", "HTTP/REST"],
+    "agent_card_url": "https://codecrafterslabs.com/.well-known/ai-agent.json",
+    "discovery": {
+      "llms_txt": "https://codecrafterslabs.com/llms.txt",
+      "llms_full_txt": "https://codecrafterslabs.com/llms-full.txt",
+      "schema_org": "https://codecrafterslabs.com/#organization",
+      "sitemap": "https://codecrafterslabs.com/sitemap.xml"
+    }
+  }
+}
